@@ -226,8 +226,8 @@ button:focus {
 }
 
 .section__title {
-	font-size: 10vw;
-	text-transform: lowercase;
+	font-size: 8vw;
+	text-transform: ;
 	margin: 0;
 	letter-spacing: -0.35vw;
 	position: relative;
