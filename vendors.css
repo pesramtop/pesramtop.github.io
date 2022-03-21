@@ -298,7 +298,8 @@ a:hover {
 }
 
 .frame__demo {
-    margin-top: 1rem
+    margin-top: 1rem;
+    font-family: 'Amiri', serif;
 }
 
 .frame__demo--current,
