@@ -278,7 +278,7 @@ a:hover {
 }
 
 .frame a {
-    text-transform: lowercase
+    text-transform: none;
 }
 
 .frame__demos a:not(:last-child),
