@@ -297,12 +297,13 @@ a:hover {
     transform: translate(-50%)
 }
 
-.frame__demo {
+.surah {
     margin-top: 5rem;
     margin-left: -2rem;
     font-family: 'Amiri', serif;
     width:80%;
     font-size: 1.2rem;
+    align-content: center;
 }
 
 .frame__demo--current,
@@ -413,6 +414,16 @@ a:hover {
 
     .frame__demo {
         margin-top: 0
+    }
+
+    .surah {
+        margin-top: -10rem;
+        margin-left: -2rem;
+        font-family: 'Amiri', serif;
+        width:80%;
+        font-size: 2.5rem;
+        align-content: center;
+        text-align: center;
     }
 
     .frame__links {
