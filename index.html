@@ -17,24 +17,6 @@
 	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 
-	<style>
-			body.cda-noimg #cdawrap {
-				--cda-width: 280px;
-				--cda-left: 3rem;
-				--cda-right: auto;
-				--cda-top: auto;
-				--cda-bottom: 3rem;
-				--cda-background: transparent;
-				padding: 0;
-				--cda-border-width: 0;
-				--cda-text-color: #fff;
-				z-index: 0;
-				font-family: inherit;
-				font-size: inherit;
-				--cda-text-weight: 400;
-				--cda-sp-color: #8d919f;
-			}
-		</style>
 	</head>
 	<body class="cda-noimg cda-removeleft">
 		<div class="overlay"></div>
@@ -49,8 +31,12 @@
 				</div>
 				<div class="content">
 					<p class="surah">قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ (﻿١﻿)﻿ مَلِكِ النَّاسِ (﻿٢﻿)﻿ إِلَـٰهِ ٱلنَّاسِ (﻿٣﻿)﻿ مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ (﻿٤﻿)﻿ ٱلَّذِى يُوَسۡوِسُ فِى صُدُورِ ٱلنَّاسِ (﻿٥﻿)﻿ مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ (﻿٦﻿)﻿
-</p>
+					</p>
+					<p class="tanya">Tandai sudah hafal?</p>
+					<button id="status" onclick="myFunction()" class="float">Ya, tandai sudah hafal</button>
 				</div>
+
+
 			</div>
 		</main>
 	<script type="text/javascript" src="vendors.js"></script><script type="text/javascript" src="demo5.js"></script></body>
@@ -84,6 +70,7 @@
 	  </div>
 	</rk-player>
 	<!-- partial -->
-	  <script  src="script.js"></script>
+	<script  src="script.js"></script>
+	<script  src="hafal.js"></script>
 
 </html>
