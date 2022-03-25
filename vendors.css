@@ -306,6 +306,42 @@ a:hover {
     align-content: center;
 }
 
+.surah_8 {
+    margin-top: 5rem;
+    margin-left: -2rem;
+    font-family: 'Amiri', serif;
+    width:80%;
+    font-size: 0.8rem;
+    align-content: center;
+}
+
+.surah_9 {
+    margin-top: 5rem;
+    margin-left: -2rem;
+    font-family: 'Amiri', serif;
+    width:80%;
+    font-size: 0.9rem;
+    align-content: center;
+}
+
+.surah_10 {
+    margin-top: 5rem;
+    margin-left: -2rem;
+    font-family: 'Amiri', serif;
+    width:80%;
+    font-size: 1.0rem;
+    align-content: center;
+}
+
+.surah_11 {
+    margin-top: 5rem;
+    margin-left: -2rem;
+    font-family: 'Amiri', serif;
+    width:80%;
+    font-size: 1.1rem;
+    align-content: center;
+}
+
 .frame__demo--current,
 .frame__demo:hover {
     color: var(--color-text)

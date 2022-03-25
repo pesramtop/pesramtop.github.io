@@ -29,6 +29,7 @@ body.cda-noimg #cdawrap {
   margin-right: 25px;
   border: 0;
   box-shadow: none;
+  z-index: 101;
 }
 
 .tanya{
@@ -40,6 +41,7 @@ color:#FFF;
 text-align:center;
 margin-right: 25px;
 font-size: 10px;
+z-index: 101;
 }
 
 body {
