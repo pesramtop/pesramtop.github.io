@@ -1,8 +1,8 @@
-var btn = document.getElementById("status");
+var btn = document.getElementById("110");
 
 function myFunction() {
-  if (btn.innerHTML=="Saya belum hafal") btn.innerHTML = "Yes! saya sudah hafal";
-  else btn.innerHTML = "Saya belum hafal";
+  if (btn.innerHTML=="Yes! saya sudah hafal") btn.innerHTML = "Saya belum hafal";
+  else btn.innerHTML = "Yes! saya sudah hafal";
   window.localStorage.setItem('btnLabel', btn.innerHTML);
 }
 
