@@ -10,10 +10,8 @@
 		<meta name="author" content="Library Twenty One" />
 		<link rel="shortcut icon" href="favicon.html">
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-	  <link href="vendors.css" rel="stylesheet">
+	  <link href="vendors.css" rel="stylesheet"><link href="demo4.css" rel="stylesheet">
 	  <link rel="stylesheet" href="style.css">
-
-		<link rel="stylesheet" type="text/css" href="demo6.css" />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +19,7 @@
 
 	</head>
 	<body class="cda-noimg cda-removeleft">
+		<div class="overlay"></div>
 		<main>
 			<div class="frame">
 				<div class="frame__title-wrap">
@@ -31,20 +30,18 @@
 					<a href="#">Pesantren Ramadhan 1443 H</a>
 				</div>
 				<div class="content">
-					<p class="surah">إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ (﻿١﻿)﻿ وَرَأَيۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِى دِينِ ٱللَّهِ أَفۡوَاجً۬ا (﻿٢﻿)﻿ فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُ‌ۚ إِنَّهُ ۥ ڪَانَ تَوَّابَۢا (﻿٣﻿)﻿
+					<p class="surah_11">وَٱلۡعَـٰدِيَـٰتِ ضَبۡحً۬ا (﻿١﻿)﻿ فَٱلۡمُورِيَـٰتِ قَدۡحً۬ا (﻿٢﻿)﻿ فَٱلۡمُغِيرَٲتِ صُبۡحً۬ا (﻿٣﻿)﻿ فَأَثَرۡنَ بِهِۦ نَقۡعً۬ا (﻿٤﻿)﻿ فَوَسَطۡنَ بِهِۦ جَمۡعًا (﻿٥﻿)﻿ إِنَّ ٱلۡإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ۬ (﻿٦﻿)﻿ وَإِنَّهُ ۥ عَلَىٰ ذَٲلِكَ لَشَہِيدٌ۬ (﻿٧﻿)﻿ وَإِنَّهُ ۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ (﻿٨﻿)﻿ ۞ أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِى ٱلۡقُبُورِ (﻿٩﻿)﻿ وَحُصِّلَ مَا فِى ٱلصُّدُورِ (﻿١٠﻿)﻿ إِنَّ رَبَّہُم بِہِمۡ يَوۡمَٮِٕذٍ۬ لَّخَبِيرُۢ (﻿١١﻿)﻿
 </p>
 <p class="tanya">Tandai sudah hafal?</p>
-<button id="111" onclick="myFunction()" class="float">Ya, tandai sudah hafal</button>
+<button id="100" onclick="myFunction()" class="float">Ya, tandai sudah hafal</button>
 </div>
-			</div>
 
-			<div class="content--canvas">
 			</div>
-
 		</main>
+	<script type="text/javascript" src="vendors.js"></script><script type="text/javascript" src="demo4.js"></script></body>
 
 	<rk-player state="paused" id="rk-player" rkp class="rkp__theme--ligh rkp__position--bottom">
-	  <audio id="rkp-audio" src="111.mp3" preload="auto"></audio>
+	  <audio id="rkp-audio" src="100.mp3" preload="auto"></audio>
 	  <div class="rkp__header">
 	    <div class="rkp__logo">Pesram SMPN 21 Purworejo</div>
 	    <div class="rkp__header-ctrl">Tahfidz</div>
@@ -55,7 +52,7 @@
 	    </div>
 	    <div class="rkp__song-src">&nbsp;</div>
 	    <div class="rkp__song-title">Audio Library Twenty One</div>
-	    <div class="rkp__song-artist">سُوۡرَةُ النّصر (Surat An-Nasr)</div>
+	    <div class="rkp__song-artist">سُوۡرَةُ العَادیَات (Surat Al-'Adiyat)</div>
 	    <div class="rkp__progress__box">
 	      <input type="range" value="0" class="rkp__progress__bar">
 	      <div class="rkp__progress__time">
@@ -66,16 +63,13 @@
 	    </div>
 	    <div class="rkp__main-ctrl">
 	      <div class="rkp__ctrl__btn rkp__ctrl__toggle"></div>
-	      <a href="112.html"><div class="rkp__ctrl__btn rkp__ctrl__prev"></div></a>
-	      <a href="110.html"><div class="rkp__ctrl__btn rkp__ctrl__next"></div></a>
+	      <a href="101.html"><div class="rkp__ctrl__btn rkp__ctrl__prev"></div></a>
+	      <a href="099.html"><div class="rkp__ctrl__btn rkp__ctrl__next"></div></a>
 	    </div>
 	  </div>
 	</rk-player>
 	<!-- partial -->
-	<script  src="111.js"></script>
-
-	<script src="noise.min.js"></script>
-	<script src="util.js"></script>
-	<script src="coalesce.js"></script>
+	  <script  src="script.js"></script>
+		<script  src="100.js"></script>
 
 </html>

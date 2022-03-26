@@ -10,10 +10,8 @@
 		<meta name="author" content="Library Twenty One" />
 		<link rel="shortcut icon" href="favicon.html">
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-	  <link href="vendors.css" rel="stylesheet">
+	  <link href="vendors.css" rel="stylesheet"><link href="demo5.css" rel="stylesheet">
 	  <link rel="stylesheet" href="style.css">
-
-		<link rel="stylesheet" type="text/css" href="demo6.css" />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +19,7 @@
 
 	</head>
 	<body class="cda-noimg cda-removeleft">
+		<div class="overlay"></div>
 		<main>
 			<div class="frame">
 				<div class="frame__title-wrap">
@@ -36,12 +35,10 @@
 <p class="tanya">Tandai sudah hafal?</p>
 <button id="111" onclick="myFunction()" class="float">Ya, tandai sudah hafal</button>
 </div>
-			</div>
 
-			<div class="content--canvas">
 			</div>
-
 		</main>
+	<script type="text/javascript" src="vendors.js"></script><script type="text/javascript" src="demo5.js"></script></body>
 
 	<rk-player state="paused" id="rk-player" rkp class="rkp__theme--ligh rkp__position--bottom">
 	  <audio id="rkp-audio" src="111.mp3" preload="auto"></audio>
@@ -72,10 +69,7 @@
 	  </div>
 	</rk-player>
 	<!-- partial -->
-	<script  src="111.js"></script>
-
-	<script src="noise.min.js"></script>
-	<script src="util.js"></script>
-	<script src="coalesce.js"></script>
+	  <script  src="script.js"></script>
+		<script  src="111.js"></script>
 
 </html>

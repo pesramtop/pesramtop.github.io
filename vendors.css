@@ -304,6 +304,7 @@ a:hover {
     width:80%;
     font-size: 1.2rem;
     align-content: center;
+    z-index: 9999;
 }
 
 .surah_8 {
@@ -313,6 +314,7 @@ a:hover {
     width:80%;
     font-size: 0.8rem;
     align-content: center;
+    z-index: 9999;
 }
 
 .surah_9 {
@@ -322,6 +324,7 @@ a:hover {
     width:80%;
     font-size: 0.9rem;
     align-content: center;
+    z-index: 9999;
 }
 
 .surah_10 {
@@ -331,6 +334,7 @@ a:hover {
     width:80%;
     font-size: 1.0rem;
     align-content: center;
+    z-index: 9999;
 }
 
 .surah_11 {
@@ -340,6 +344,7 @@ a:hover {
     width:80%;
     font-size: 1.1rem;
     align-content: center;
+    z-index: 9999;
 }
 
 .frame__demo--current,
